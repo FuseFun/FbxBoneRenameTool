@@ -19,9 +19,13 @@ AssetPreprocessor.exe 将启动并处理资产**
 文件名为：[原始文件名]_Processed.fbx**
 
 
+注意：此工具文本使用Unicode编码，如您的系统编码为ANSI，会显示乱码
+
+https://blog.csdn.net/C_change/article/details/134514980
 
 ## 【v1.2】
 新增了 移除末端 bone 的功能，权重不一定要指定到父级，也可以指定给其他骨骼上，移除也不一定必须是末端bone，中间的bone也可以（但没充分测试，慎用）
 
 ## 【v1.3】
 修复删除骨骼功能存在的已知问题，修复日志输出，界面美化
+
